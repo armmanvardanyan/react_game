@@ -1,0 +1,53 @@
+
+.cntn{
+    width:400px ;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin:auto ;
+    padding: 5px;
+}
+
+
+.tic_tac_toe{
+    width: 300px;
+    height: 300px;
+    padding: .5px;
+    border: 1px solid black;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+
+.tic_tac_item {
+    height: 99px;
+    width: 99px;
+    border: .2px  solid black;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 2em;
+}
+.tic_tac_item:hover{
+    cursor: pointer;
+}
+
+.winner_name{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+    margin:5px auto;
+
+}
